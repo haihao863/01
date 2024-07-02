@@ -1,0 +1,33 @@
+body, html {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+}
+
+#expressionInput {
+    width: 80%;
+    height: 50px;
+    margin-top: 20px;
+}
+
+#calculateButton {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#result, #error {
+    margin-top: 20px;
+    font-size: 20px;
+    color: red;
+}
